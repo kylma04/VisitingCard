@@ -74,14 +74,14 @@ fun Greeting(modifier: Modifier = Modifier) {
         Spacer(modifier = Modifier.size(80.dp))
         Column(horizontalAlignment = Alignment.CenterHorizontally){
             Image(painter = painterResource(R.drawable.images), contentDescription = "Image principale", modifier = Modifier.size(200.dp).clip(CircleShape))
-            Text(text = "SAOURE Kouamé Teddy", fontWeight = FontWeight.Bold, fontSize = 28.sp, fontFamily = customFontFamily)
-            Text(text = "Junior Fullstack Developer", fontSize = 18.sp, fontFamily = customFontFamily)
+            Text(text = "KY Ludovic Magloire", fontWeight = FontWeight.Bold, fontSize = 28.sp, fontFamily = customFontFamily)
+            Text(text = "Senior Fullstack Developer", fontSize = 18.sp, fontFamily = customFontFamily)
         }
         Spacer(modifier = Modifier.size(40.dp))
         Column{
             MyRow("+225 07 080 629 82", Icons.Rounded.Call)
-            MyRow("saoured11@gmail.com", Icons.Rounded.Email)
-            MyRow("Abidjan, Port-bouet", Icons.Rounded.LocationOn)
+            MyRow("kyludovic@gmail.com", Icons.Rounded.Email)
+            MyRow("Abidjan, Plateau", Icons.Rounded.LocationOn)
         }
     }
 }
