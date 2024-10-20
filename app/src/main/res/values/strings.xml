@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">visitingCard</string>
+    <string name="shopping_cart_content_desc">Cart</string>
+    <string name="localisation_content_desc">Localisation</string>
+    <string name="email_content_desc">Email</string>
+    <string name="call_content_desc">Call</string>
+</resources>
