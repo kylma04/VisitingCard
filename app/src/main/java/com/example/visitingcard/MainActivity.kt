@@ -79,7 +79,7 @@ fun Greeting(modifier: Modifier = Modifier) {
         }
         Spacer(modifier = Modifier.size(40.dp))
         Column{
-            MyRow("+225 07 080 629 82", Icons.Rounded.Call)
+            MyRow("+225 07 991 433 62", Icons.Rounded.Call)
             MyRow("kyludovic@gmail.com", Icons.Rounded.Email)
             MyRow("Abidjan, Plateau", Icons.Rounded.LocationOn)
         }
